@@ -1,9 +1,9 @@
-package org.example.factoryPattern.connection.factory;
+package org.example.factorypattern.connection.factory;
 
-import org.example.factoryPattern.connection.DatabaseConnection;
-import org.example.factoryPattern.connection.impl.MongoDBConnection;
-import org.example.factoryPattern.connection.impl.MySQLConnection;
-import org.example.factoryPattern.connection.impl.PostgreSQLConnection;
+import org.example.factorypattern.connection.DatabaseConnection;
+import org.example.factorypattern.connection.impl.MongoDBConnection;
+import org.example.factorypattern.connection.impl.MySQLConnection;
+import org.example.factorypattern.connection.impl.PostgreSQLConnection;
 
 public class DatabaseFactory {
     public static DatabaseConnection createConnection(String dbType) {

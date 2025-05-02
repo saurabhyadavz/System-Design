@@ -1,4 +1,4 @@
-package org.example.factoryPattern.connection;
+package org.example.factorypattern.connection;
 
 public interface DatabaseConnection {
     void connect();

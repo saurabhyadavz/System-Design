@@ -1,7 +1,7 @@
-package org.example.factoryPattern;
+package org.example.factorypattern;
 
-import org.example.factoryPattern.connection.DatabaseConnection;
-import org.example.factoryPattern.connection.factory.DatabaseFactory;
+import org.example.factorypattern.connection.DatabaseConnection;
+import org.example.factorypattern.connection.factory.DatabaseFactory;
 
 public class FactoryPatternDemo {
     public static void main(String[] args) {

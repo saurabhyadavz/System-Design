@@ -1,4 +1,4 @@
-package org.example.builderPattern;
+package org.example.builderpattern;
 
 public class Pizza {
     private final String size;

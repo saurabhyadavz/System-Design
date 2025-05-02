@@ -1,6 +1,4 @@
-package org.example.builderPattern;
-
-import org.example.builderPattern.Pizza;
+package org.example.builderpattern;
 
 public class BuilderPatternDemo {
     public static void main(String[] args) {

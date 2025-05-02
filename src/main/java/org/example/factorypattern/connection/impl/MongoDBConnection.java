@@ -1,6 +1,6 @@
-package org.example.factoryPattern.connection.impl;
+package org.example.factorypattern.connection.impl;
 
-import org.example.factoryPattern.connection.DatabaseConnection;
+import org.example.factorypattern.connection.DatabaseConnection;
 
 public class MongoDBConnection implements DatabaseConnection {
     @Override
