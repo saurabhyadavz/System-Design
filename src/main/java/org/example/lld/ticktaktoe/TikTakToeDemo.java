@@ -1,9 +1,8 @@
-package org.example.lld;
+package org.example.lld.ticktaktoe;
 
 import org.example.lld.ticktaktoe.factory.HumanPlayerFactory;
 import org.example.lld.ticktaktoe.models.Player;
 import org.example.lld.ticktaktoe.models.enums.Symbol;
-import org.example.lld.ticktaktoe.TikTakToeGame;
 import org.example.lld.ticktaktoe.observer.GameLogger;
 
 import java.util.Scanner;
