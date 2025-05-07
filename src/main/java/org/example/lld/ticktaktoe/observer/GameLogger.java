@@ -12,11 +12,11 @@ public class GameLogger implements GameObserver {
 
     @Override
     public void onGameStateChange(GameState gameState) {
-        System.out.printf("Game state has changed to: %s", gameState.toString());
+        System.out.printf("Game state has changed to: %s\n", gameState.toString());
     }
 
     @Override
     public void onPlayerChanged(Player player) {
-        System.out.printf("Player has changed to %s",player.getName());
+        System.out.printf("Player has changed to %s\n", player.getName());
     }
 }
